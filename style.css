@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Arima+Madurai|Lobster+Two:700i);
+
 a,
 body {
     color: #3d3d3d
@@ -112,4 +113,23 @@ p.content.last {
 li.links {
     display: inline-block;
     padding: 5px 10px;
+}
+
+.link-blog {
+    display: block;
+    line-height: 58%;
+    max-width: 32px;
+    text-decoration: none;
+    position: relative;
+    top: 3px;
+}
+
+.link-blog .big {
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+.link-blog .small {
+    font-size: 6pt;
+    line-height: 0;
 }
