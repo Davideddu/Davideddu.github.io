@@ -108,3 +108,8 @@ p.content.last {
     margin-top: 0;
     margin-bottom: 16px
 }
+
+li.links {
+    display: inline-block;
+    padding: 5px 10px;
+}
