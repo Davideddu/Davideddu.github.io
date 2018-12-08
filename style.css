@@ -12,7 +12,7 @@ body {
     background: -o-radial-gradient(#F1EA1E, #D2CC18);
     background: -moz-radial-gradient(#F1EA1E, #D2CC18);
     background: radial-gradient(#F1EA1E, #D2CC18);
-    overflow: hidden
+    /*overflow: hidden*/
 }
 
 a:hover {
@@ -22,7 +22,7 @@ a:hover {
 h1 {
     font-family: 'Lobster Two', cursive;
     font-size: 40pt;
-    line-height: 20%
+    line-height: 0.8em;
 }
 
 h4 {
@@ -31,7 +31,6 @@ h4 {
 
 .container {
     min-width: 100%;
-    min-width: 100vw;
     text-align: center
 }
 
@@ -46,8 +45,11 @@ h4 {
 }
 
 .social_links {
-    letter-spacing: 10pt;
     line-height: 90%
+}
+
+.social_links ul {
+    padding-left: 0;
 }
 
 .rainbow-stripe {
@@ -101,13 +103,14 @@ h4 {
 p.content {
     font-size: 12pt;
     font-family: 'Arima Madurai', "Open Sans", sans-serif;
-    font-weight: bold;
-    margin-bottom: 4px
+    margin-bottom: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 p.content.last {
     margin-top: 0;
-    margin-bottom: 16px
+    margin-bottom: 16px;
 }
 
 li.links {
@@ -127,9 +130,61 @@ li.links {
 .link-blog .big {
     font-weight: bold;
     font-size: 10pt;
+    letter-spacing: 0;
 }
 
 .link-blog .small {
     font-size: 6pt;
     line-height: 0;
+    letter-spacing: 0;
+}
+
+.app_block {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.app_block div {
+    display: inline-block;
+    text-align: left;
+}
+
+.app_block .block {
+    padding: 15px;
+    background: white;
+    border-radius: 2px;
+    border: black 0.5px solid;
+    -webkit-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.5);
+}
+
+.app_links {
+    padding: 0 0 0 10px;
+    margin: auto;
+}
+
+.app_links li {
+    padding-left: 3px;
+    padding-right: 3px;
+    display: inline-block;
+}
+
+.app_links li img {
+    height: 2em;
+}
+
+#become_a_patron a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    .app_block div {
+        display: block;
+        text-align: center;
+    }
+
+    .app_links {
+        margin-top: 15px;
+    }
 }

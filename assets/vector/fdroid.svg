@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48"
+   height="48"
+   viewBox="0 0 48.000001 48.000001"
+   id="svg4230"
+   version="1.1"
+   inkscape:version="0.92.2 2405546, 2018-03-11"
+   sodipodi:docname="fdroid-logo.svg">
+  <defs
+     id="defs4232" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="11.313708"
+     inkscape:cx="17.223951"
+     inkscape:cy="22.402323"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     units="px"
+     inkscape:window-width="2560"
+     inkscape:window-height="1311"
+     inkscape:window-x="0"
+     inkscape:window-y="55"
+     inkscape:window-maximized="1"
+     gridtolerance="10000" />
+  <metadata
+     id="metadata4235">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-1004.3622)">
+    <path
+       style="opacity:1;fill:#3d3d3d;fill-opacity:1;stroke:none;stroke-width:1.89999998;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 8 20.044922 C 7.79225 20.044922 7.5901759 20.065637 7.3945312 20.105469 C 6.8075977 20.224965 6.2836406 20.515188 5.8769531 20.921875 C 5.4702656 21.328562 5.180043 21.850566 5.0605469 22.4375 C 5.0207148 22.633145 5 22.837172 5 23.044922 L 5 30.044922 L 5 42.275391 L 5 43.044922 C 5 43.668172 5.1888789 44.245957 5.5117188 44.724609 C 6.0497851 45.522363 6.96125 46.044922 8 46.044922 L 40 46.044922 C 41.03875 46.044922 41.950215 45.522363 42.488281 44.724609 C 42.595895 44.565059 42.689922 44.394422 42.765625 44.214844 C 42.917031 43.855688 43 43.460422 43 43.044922 L 43 42.275391 L 43 36.044922 L 43 23.8125 L 43 23.044922 C 43 22.629422 42.917031 22.234156 42.765625 21.875 C 42.689922 21.695422 42.595895 21.524785 42.488281 21.365234 C 41.950215 20.56748 41.03875 20.044922 40 20.044922 L 8 20.044922 z M 24 22.525391 A 10.518214 10.518214 0 0 1 34.517578 33.044922 A 10.518214 10.518214 0 0 1 24 43.5625 A 10.518214 10.518214 0 0 1 13.482422 33.044922 A 10.518214 10.518214 0 0 1 24 22.525391 z M 24 24.449219 A 8.595767 8.595767 0 0 0 15.404297 33.044922 A 8.595767 8.595767 0 0 0 24 41.640625 A 8.595767 8.595767 0 0 0 32.595703 33.044922 A 8.595767 8.595767 0 0 0 24 24.449219 z M 24 26.75 C 27.434013 26.75 30.25 29.566 30.25 33 C 30.25 36.434 27.434013 39.25 24 39.25 C 21.04791 39.25 18.558263 37.166091 17.916016 34.400391 L 21.070312 34.400391 C 21.58875 35.497291 22.692619 36.25 24 36.25 C 25.812692 36.25 27.25 34.8127 27.25 33 C 27.25 31.1873 25.812692 29.75 24 29.75 C 22.774798 29.75 21.734004 30.414991 21.179688 31.400391 L 17.966797 31.400391 C 18.680211 28.734691 21.119338 26.75 24 26.75 z "
+       transform="translate(0,1004.3622)"
+       id="path1159" />
+    <path
+       style="opacity:1;fill:#3d3d3d;fill-opacity:1;stroke:none;stroke-width:1.89999998;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 2.3378906 1.5253906 C 1.8997156 1.5253906 1.3780282 1.6672187 1.5136719 2.3242188 C 1.6007203 2.7458398 4.4143564 6.2239169 5.4433594 7.4902344 C 5.267653 7.7794362 5.1304322 8.0942417 5.0605469 8.4375 C 5.0207148 8.6331445 5 8.8371719 5 9.0449219 L 5 9.5820312 L 5 12.044922 L 5 13.044922 L 5 15.505859 L 5 16.044922 C 5 16.668172 5.1888789 17.245957 5.5117188 17.724609 C 6.0497851 18.522363 6.96125 19.044922 8 19.044922 L 40 19.044922 C 41.03875 19.044922 41.950215 18.522363 42.488281 17.724609 C 42.595895 17.565059 42.689922 17.394422 42.765625 17.214844 C 42.841328 17.035266 42.899621 16.846035 42.939453 16.650391 C 42.979285 16.454746 43 16.252672 43 16.044922 L 43 15.505859 L 43 13.044922 L 43 12.044922 L 43 9.5820312 L 43 9.0449219 C 43 8.8371719 42.979285 8.6331445 42.939453 8.4375 C 42.869568 8.0942417 42.732347 7.7794362 42.556641 7.4902344 C 43.585644 6.2239169 46.39928 2.7458399 46.486328 2.3242188 C 46.621971 1.6672187 46.100284 1.5253906 45.662109 1.5253906 C 45.194456 1.5395906 44.846178 1.9932031 44.585938 2.2832031 L 41.398438 6.4023438 C 40.979602 6.180837 40.50856 6.0449219 40 6.0449219 L 8 6.0449219 C 7.79225 6.0449219 7.5901759 6.0656367 7.3945312 6.1054688 C 7.1988867 6.1453008 7.0096562 6.2035938 6.8300781 6.2792969 C 6.7496371 6.3132077 6.6782043 6.3618107 6.6015625 6.4023438 L 3.4140625 2.2832031 C 3.1538231 1.9932031 2.8055438 1.5395906 2.3378906 1.5253906 z M 14.375 9.75 A 3.375 3.375 0 0 1 17.75 13.125 A 3.375 3.375 0 0 1 14.375 16.5 A 3.375 3.375 0 0 1 11 13.125 A 3.375 3.375 0 0 1 14.375 9.75 z M 33.875 9.75 A 3.375 3.375 0 0 1 37.25 13.125 A 3.375 3.375 0 0 1 33.875 16.5 A 3.375 3.375 0 0 1 30.5 13.125 A 3.375 3.375 0 0 1 33.875 9.75 z "
+       id="ellipse4175"
+       transform="translate(0,1004.3622)" />
+  </g>
+</svg>
