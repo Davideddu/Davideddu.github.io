@@ -14,9 +14,31 @@
 
     <title>Davide Depau</title>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.5/css/fork-awesome.min.css" integrity="sha256-P64qV9gULPHiZTdrS1nM59toStkgjM0dsf5mK/UwBV4=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.5/css/fork-awesome.min.css"
+          integrity="sha256-P64qV9gULPHiZTdrS1nM59toStkgjM0dsf5mK/UwBV4=" crossorigin="anonymous">
 
     <link href="style.css" rel="stylesheet">
+
+    <!-- Matomo -->
+    <script type="text/javascript">
+        var _paq = _paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function () {
+            var u = "//analytics.depau.eu/";
+            _paq.push(['setTrackerUrl', u + 'piwik.php']);
+            _paq.push(['setSiteId', '2']);
+            var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+            g.type = 'text/javascript';
+            g.async = true;
+            g.defer = true;
+            g.src = u + 'piwik.js';
+            s.parentNode.insertBefore(g, s);
+        })();
+    </script>
+    <noscript><p><img src="//analytics.depau.eu/piwik.php?idsite=2&amp;rec=1" style="border:0;" alt=""/></p></noscript>
+    <!-- End Matomo Code -->
 </head>
 <body>
 <div class="supercontainer">
@@ -82,11 +104,14 @@
                     </div>
                     <div>
                         <ul class="app_links">
-                            <li><a href="https://github.com/Depau/EtchDroid" title="GitHub" target="_blank" rel="noopener"><img
+                            <li><a href="https://github.com/Depau/EtchDroid" title="GitHub" target="_blank"
+                                   rel="noopener"><img
                                     src="assets/vector/github.svg"/></a></li>
-                            <li><a href="https://f-droid.org/en/packages/eu.depau.etchdroid/" title="F-Droid" target="_blank" rel="noopener"><img
+                            <li><a href="https://f-droid.org/en/packages/eu.depau.etchdroid/" title="F-Droid"
+                                   target="_blank" rel="noopener"><img
                                     src="assets/vector/fdroid.svg"/></a></li>
-                            <li><a href="https://play.google.com/store/apps/details?id=eu.depau.etchdroid" title="Google Play Store" target="_blank" rel="noopener"><img
+                            <li><a href="https://play.google.com/store/apps/details?id=eu.depau.etchdroid"
+                                   title="Google Play Store" target="_blank" rel="noopener"><img
                                     src="assets/vector/googleplay.svg"/></a></li>
                         </ul>
                     </div>
