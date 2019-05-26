@@ -1,0 +1,33 @@
+.depau-figlet {
+    &-slant-small, &-slant-normal, &-slant-small-twolines, &-mini {
+        display: none;
+    }
+}
+
+.depau-figlet {
+    text-align: center;
+
+    @media screen and (max-width: 299px) {
+        &.depau-figlet-mini {
+            display: block;
+        }
+    }
+
+    @media screen and (min-width: 300px) and (max-width: 549px) {
+        &.depau-figlet-slant-small-twolines {
+            display: block;
+        }
+    }
+
+    @media screen and (min-width: 550px) and (max-width: 699px) {
+        &.depau-figlet-slant-small {
+            display: block;
+        }
+    }
+
+    @media screen and (min-width: 700px) {
+        &.depau-figlet-slant-normal {
+            display: block;
+        }
+    }
+}

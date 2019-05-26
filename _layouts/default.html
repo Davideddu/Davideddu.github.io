@@ -1,0 +1,11 @@
+---
+layout: default_nonav
+---
+
+<nav id="navigation" class="center">
+    {% for x in site.nav %}
+    <strong><a href="{{ x.link }}">{{ x.name }}</a></strong>({{ x.section }}){% if forloop.last == false %},{% endif %}
+    {% endfor %}
+</nav>
+
+{{ content }}

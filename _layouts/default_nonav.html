@@ -1,0 +1,53 @@
+---
+layout: base
+---
+
+{% if page.title %}
+{% if page.man_section %}
+{% assign pagename = page.title | append: "(" | append: page.man_section | append: ")" %}
+{% else %}
+{% assign pagename = page.title | append: "(7)" %}
+{% endif %}
+{% endif %}
+
+{% if site.man_title %}
+{% assign sitename = site.man_title %}
+{% else %}
+{% assign sitename = site.title %}
+{% endif %}
+
+<header class="manpage-top">
+    {% if pagename %}
+    <div class="manpage-name">{{ pagename }}</div>
+    {% endif %}
+
+    <div class="manpage-title"><a href="{{ site.url }}" title="Go to homepage">{{ sitename }}</a></div>
+
+    {% if pagename %}
+    <div class="manpage-name">{{ pagename }}</div>
+    {% endif %}
+</header>
+
+
+<div class="manpage">
+    {{ content }}
+</div>
+
+<header class="manpage-bottom">
+    {% if pagename %}
+    <div class="manpage-name no-uppercase">{{ page.title }}</div>
+    {% endif %}
+
+    <div class="manpage-title">
+        <a href="{{ site.page_source_base }}{{ page.path }}" target="_blank" rel="noopener"
+           title="See page source">{{ site.time | date: '%B %Y' }}</a>
+    </div>
+
+    {% if pagename %}
+    <div class="manpage-name">{{ pagename }}</div>
+    {% endif %}
+</header>
+
+<div id="manpage-progress-indicator">
+    Page {{ pagename | downcase }}
+</div>
