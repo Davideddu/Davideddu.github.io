@@ -1,5 +1,6 @@
 const LINE_HEIGHT_APPROX = 18;  // pixels-ish
 const COOKIES_LOCATION = "/cookies";
+const COOKIES_BUTTON = 'h';
 
 $(document).ready(function () {
     const body = $("body");
@@ -12,7 +13,7 @@ $(document).ready(function () {
     );
 
     if (!isCookiesPage) {
-        indicator.append(" <span class='no-wrap no-mobile'>(press h for info on cookies)</span>");
+        indicator.append(` <span class='no-wrap no-mobile'>(press <a href='${COOKIES_LOCATION}'>${COOKIES_BUTTON}</a> for info on cookies)</span>`);
     }
 
     const curLines = indicator.children().filter('.cur');
@@ -51,7 +52,7 @@ $(document).ready(function () {
     // Keyboard events
     if (!isCookiesPage) {
         $(document).keypress(function (event) {
-            if (event.originalEvent.key === 'h') {
+            if (event.originalEvent.key === COOKIES_BUTTON) {
                 window.location = COOKIES_LOCATION;
             }
         })

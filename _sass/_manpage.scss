@@ -135,6 +135,11 @@ a {
     background: $fg_color;
     color: $bg_color;
 
+    a, a:hover, a:active, a:focus {
+        background: $fg_color;
+        color: $bg_color;
+    }
+
     &::selection, &::-moz-selection {
         background: $bg_color;
         color: $fg_color;
