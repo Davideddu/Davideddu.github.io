@@ -1,10 +1,10 @@
 title: Davide Depau
+man_title: Davide Depau's Website
 url: "https://depau.eu"
 baseurl: ""
+page_source_base: "https://github.com/Depau/depau.eu/blob/master/"
 
 markdown: kramdown
-
-tracking_id: #
 
 permalink: pretty
 
@@ -37,9 +37,15 @@ kramdown:
     css_class: 'highlight'
 
 nav:
- - name: "<i class='remixicon-home-line'></i> About"
-   link: "https://depau.eu"
- - name: "<i class='remixicon-github-line'></i> GitHub"
+ - name: "home"
+   link: "/"
+   section: "<i class='remixicon-home-line'></i>"
+ - name: "blog"
+   link: "https://blog.depau.eu"
+   section: "<i class='remixicon-newspaper-line'></i>"
+ - name: "github"
    link: "https://github.com/Depau"
- - name: "<i class='remixicon-android-line'></i> EtchDroid"
+   section: "<i class='remixicon-github-line'></i>"
+ - name: "etchdroid"
    link: "https://etchdroid.depau.eu"
+   section: "<i class='remixicon-android-line'></i>"

@@ -1,0 +1,124 @@
+// "Terminal theme"
+$white: #f8f8f2;
+$black: #141021;
+$black_light: #75715e;
+
+$red: #f92672;
+$green: #a6e22e;
+$orange: #f4bf75;
+$blue: #66d9ef;
+$purple: #ae81ff;
+$turquoise: #a1efe4;
+$gray: #f9f8f5;
+
+$bg_color: $black;
+$fg_color: $white;
+
+
+.red {
+    color: $red;
+
+    &::selection, &::-moz-selection {
+        background: $red;
+        color: $bg_color;
+    }
+}
+
+.green {
+    color: $green;
+
+    &::selection, &::-moz-selection {
+        background: $green;
+        color: $bg_color;
+    }
+}
+
+.orange, .yellow {
+    color: $orange;
+
+    &::selection, &::-moz-selection {
+        background: $orange;
+        color: $bg_color;
+    }
+}
+
+.blue {
+    color: $blue;
+
+    &::selection, &::-moz-selection {
+        background: $blue;
+        color: $bg_color;
+    }
+}
+
+.turquoise {
+    color: $turquoise;
+
+    &::selection, &::-moz-selection {
+        background: $turquoise;
+        color: $bg_color;
+    }
+}
+
+.purple {
+    color: $purple;
+
+    &::selection, &::-moz-selection {
+        background: $purple;
+        color: $bg_color;
+    }
+}
+
+.gray {
+    color: $gray;
+
+    &::selection, &::-moz-selection {
+        background: $gray;
+        color: $bg_color;
+    }
+}
+
+.black {
+    color: $black;
+
+    &::selection, &::-moz-selection {
+        background: $black;
+        color: $white;
+    }
+}
+
+.black-light {
+    color: $black_light;
+
+    &::selection, &::-moz-selection {
+        background: $black_light;
+        color: $white;
+    }
+}
+
+.white {
+    color: $white;
+
+    &::selection, &::-moz-selection {
+        background: $white;
+        color: $black;
+    }
+}
+
+.color-bg {
+    color: $bg_color;
+
+    &::selection, &::-moz-selection {
+        background: $bg_color;
+        color: $fg_color;
+    }
+}
+
+.color-fg {
+    color: $fg_color;
+
+    &::selection, &::-moz-selection {
+        background: $fg_color;
+        color: $bg_color;
+    }
+}

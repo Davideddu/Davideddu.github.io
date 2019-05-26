@@ -1,70 +1,11 @@
-<!doctype html>
-<html class="no-js" lang="">
+---
+layout: default_nonav
+---
 
-<head>
-  <meta charset="utf-8">
-  <title>{% if page.title %}{{ page.title }} « {% endif %}{{ site.title }}</title>
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <meta name="keywords" content="accent, {{ site.author }}, {{ site.title }}, jekyll">
-  <meta name="author" content="{{ site.author }}">
-  {% if page.url == "/404.html" %}
-  <meta http-equiv="refresh" content="5; url=/">
-  {% endif %}
-  {% if page.description %}
-  {% assign desc = page.description %}
-  {% else %}
-  {% assign desc = site.description %}
-  {% endif %}
-  {% if page.url %}
-  {% assign url = site.url | append: site.baseurl | append: page.url %}
-  {% else %}
-  {% assign url = site.url | append: site.baseurl | append: page.url %}
-  {% endif %}
-  <meta name="description" content="{{ desc }}">
-
-  {% if site.favicon %}
-  <link rel="icon" type="image/ico" href="{{ site.favicon_location }}">
-  <link rel="shortcut-icon" type="image/ico" href="{{ site.favicon_location }}">
-  {% endif %}
-
-  <!-- Facebook Open Graph -->
-  <meta name="og:description" content="{{ desc }}">
-  <meta name="og:title" content="{{ site.title }}">
-  <meta name="og:url" content="{{ url }}">
-  <meta name="og:type" content="article">
-  {% if site.og_image %}
-  <meta name="og:image" content="{{ site.og_image }}">
-  {% endif %}
-
-  {% if site.theme_color %}
-  <meta name="theme-color" content="{{ site.theme_color }}">
-  {% endif %}
-
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="{{ site.title }}">
-  <meta name="twitter:description" content="{{ desc }}">
-  <meta name="twitter:url" content="{{ url }}">
-
-  <link rel="manifest" href="/site.webmanifest">
-  <!--  <link rel="apple-touch-icon" href="icon.png">-->
-  <!-- Place favicon.ico in the root directory -->
-
-  <link rel="stylesheet" href="/css/normalize.css">
-  <link rel="stylesheet" href="/css/main.css">
-
-</head>
-
-<body>
-<!--[if IE]>
-<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
-  your browser</a> to improve your experience and security.</p>
-<![endif]-->
+<nav id="navigation" class="center">
+    {% for x in site.nav %}
+    <strong><a href="{{ x.link }}">{{ x.name }}</a></strong>({{ x.section }}){% if forloop.last == false %},{% endif %}
+    {% endfor %}
+</nav>
 
 {{ content }}
-
-</body>
-
-</html>

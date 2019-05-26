@@ -1,0 +1,167 @@
+@import "constants";
+@import "colors";
+
+body {
+    background: $bg_color;
+    color: $white;
+    font-family: $text_font;
+    font-size: $font_size;
+}
+
+a {
+    color: $fg_color;
+    text-decoration: none;
+    border-bottom: $fg_color dotted 1px;
+
+    &:hover, &:focus, &:active {
+        color: $fg_color;
+        border-bottom: $fg_color solid 1px;
+    }
+}
+
+.no-uppercase {
+    text-transform: initial !important;
+}
+
+::selection, ::-moz-selection {
+    background: $fg_color;
+    color: $bg_color;
+}
+
+.manpage {
+    padding-right: ($font_size * $man_right_padding_chars) / 2;
+    padding-bottom: 50px;
+
+    &-top {
+        .manpage {
+            &-name, &-title {
+                position: absolute;
+                top: 0;
+            }
+        }
+
+        padding-bottom: $font_size;
+    }
+
+    &-bottom {
+        // Gap for scroll indicator
+        height: $font_size;
+        margin-bottom: $font_size * 2;
+    }
+
+    &-top, &-bottom {
+        .manpage-name {
+            text-transform: uppercase;
+            position: absolute;
+
+            @media screen and (max-width: 400px) {
+                display: none;
+            }
+
+            &:first-child {
+                left: 0;
+            }
+
+            &:last-child {
+                right: 0;
+                float: right;
+            }
+        }
+
+        .manpage-title {
+            width: 100%;
+            text-align: center;
+            float: left;
+        }
+    }
+
+    h1 {
+        font-weight: bold;
+        padding-top: 10px;
+    }
+
+    h1, h2 {
+        font-size: $font_size;
+        text-transform: uppercase;
+    }
+
+    h2, h3, h4, h5 {
+        font-weight: normal;
+    }
+
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+
+        li {
+            &:before {
+                content: $man_ul_marker;
+            }
+
+            &.multiline {
+                display: flex;
+                padding-left: 10px;
+
+                &:before {
+                    position: relative;
+                    left: -10px;
+                }
+            }
+        }
+    }
+
+    .indent {
+        padding-left: ($font_size * $man_indent_chars) / 2;
+    }
+
+    @media screen and (max-width: 400px) {
+        padding-right: ($font_size * $man_right_padding_chars_mobile) / 2;
+
+        .indent {
+            padding-left: ($font_size * $man_indent_chars_mobile) / 2;
+        }
+    }
+}
+
+
+#manpage-progress-indicator {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    padding-left: $font_size / 2;
+    padding-right: $font_size / 2;
+
+    background: $fg_color;
+    color: $bg_color;
+
+    &::selection, &::-moz-selection {
+        background: $bg_color;
+        color: $fg_color;
+    }
+
+    span {
+        &::selection, &::-moz-selection {
+            background: $bg_color;
+            color: $fg_color;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .no-mobile {
+        display: none;
+    }
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
+
+.center {
+    text-align: center;
+}
+
+nav#navigation {
+    padding-top: $font_size;
+}
