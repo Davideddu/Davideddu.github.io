@@ -1,0 +1,45 @@
+title: Davide Depau
+url: "https://depau.eu"
+baseurl: ""
+
+markdown: kramdown
+
+tracking_id: #
+
+permalink: pretty
+
+footer: yes
+footer_url: "https://github.com/Depau/depau.eu"
+footer_text: "Site source code on GitHub"
+
+sass:
+    style: compressed
+    sass_dir: _sass
+
+plugins:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+
+kramdown:
+  # Use GitHub flavored markdown, including triple backtick fenced code blocks
+  input: GFM
+  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css
+    css_class: 'highlight'
+
+nav:
+ - name: "<i class='remixicon-home-line'></i> About"
+   link: "https://depau.eu"
+ - name: "<i class='remixicon-github-line'></i> GitHub"
+   link: "https://github.com/Depau"
+ - name: "<i class='remixicon-android-line'></i> EtchDroid"
+   link: "https://etchdroid.depau.eu"
