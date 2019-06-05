@@ -1,11 +1,10 @@
 .depau-figlet {
+    text-align: center;
+    line-height: normal;
+
     &-slant-small, &-slant-normal, &-slant-small-twolines, &-mini {
         display: none;
     }
-}
-
-.depau-figlet {
-    text-align: center;
 
     @media screen and (max-width: 299px) {
         &.depau-figlet-mini {
